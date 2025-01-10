@@ -73,7 +73,7 @@ public class Board {
 	}
 
 	public void placePiece(int column, CellState player) {
-		board[rows-1][column-1].setState(player);
+		board[0][column-1].setState(player);
 		
 	}
 }
